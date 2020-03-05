@@ -21,6 +21,17 @@ Or you could send your CrackMe to your learning buddy!
 
 ![CrackMe](https://github.com/d4ichi/CrackMe-DotNet/blob/master/Resource/img/crackme_no_input.png)
 
+### CrackMe01
+<p>One user input is required.</p>
+<p>This CrackMe compares user input with a plain text key.</p>
+
+![CrackMe](https://github.com/d4ichi/CrackMe-DotNet/blob/master/Resource/img/crackme_one_input.png)
+
+<p>Key for the sample binary: </p>
+
+```
+FH8YALGR
+```
 
 ## Requirements
 - All source codes here are written in Microsoft Visual Studio 2017.
