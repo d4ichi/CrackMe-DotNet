@@ -33,6 +33,16 @@ Or you could send your CrackMe to your learning buddy!
 FH8YALGR
 ```
 
+### CrackMe02
+<p>One user input is required.</p>
+<p>GUI is the same as above with a bit more obfuscation for key evaluation. The key is not saved in plain text. The characters' order is reversed.</p>
+
+<p>Key for the sample binary: </p>
+
+```
+hellocrackme
+```
+
 ## Requirements
 - All source codes here are written in Microsoft Visual Studio 2017.
 - Microsoft Visual C++ with CRL
