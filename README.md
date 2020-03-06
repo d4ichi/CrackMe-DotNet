@@ -7,8 +7,8 @@ This repository offers source codes for CrackMes with modern GUI forms written i
 Indeed I provide some simple key evaluation functions, you can edit it and make your CrackMe harder as much as you want. All CrackMe here can popup information dialog. So you can put some information about your CTF, author, deadline, or instructions with just replacing some sentences.
 
 ## For Computer Science Students
-If you are studying Software Reverse Engineering, disassembling CrackMe is a good way to start your practical exercise. If you don't feel you are ready for CrackMes out there on GitHub, you could start coding your own CrackMe and disassemble it. It will be much easier to play around with because you are the creator of the CrackMe.
-Additionally, it's good for learning Reverse Engineering to observe the consequence of your code/implementation of obfuscation in disassembled form.
+If you are studying Software Reverse Engineering, reversing CrackMe is a good way to start your practical exercise. If you don't feel you are ready for CrackMes out there on GitHub, you could start coding your own CrackMe and analyze it. It will be much easier to play around with because you are the creator of the CrackMe.
+Additionally, it's good for learning Reverse Engineering to observe the consequence of your code/implementation of obfuscation in reversed form.
 
 Or you could send your CrackMe to your learning buddy!
 
