@@ -13,6 +13,9 @@ namespace CrackMe {
 	//To convert System::String* to std::char*
 	using namespace System::Runtime::InteropServices;
 
+	// Define a key seed
+	char* seed = "emkcarcolleh";
+
 	/// <summary>
 	/// CrackMe with modern GUI
 	/// </summary>
@@ -239,9 +242,7 @@ private: System::Void buttonActivate_Click(System::Object^  sender, System::Even
 	// Write a code to evaluate user's input here.
 	// This example simply compares user input and plain text. 
 
-
-	// Define a key seed
-	char* key = "emkcarcolleh";
+	char key[100];
 	// Code below reverse the character order of key seed
 	// The correct password is "hellocrackme"
 
@@ -251,8 +252,11 @@ private: System::Void buttonActivate_Click(System::Object^  sender, System::Even
 	// Convert System::String to Char
 	char* input_key = (char*)(void*)Marshal::StringToHGlobalAnsi(input_key_s);
 
+
+
 	//Using temp to store the char value at index i so 
 	//you can swap it in later for char value at index n
+	strcpy(key, seed);
 	int len = strlen(key);
 	int n = len - 1;
 	for (int i = 0; i < (len / 2); i++) {
